@@ -1,0 +1,121 @@
+.img{
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    vertical-align:middle;
+}
+h2,h3,p{
+    margin:0;
+    font-family:poppins;
+}
+body{
+    background:linear-gradient(to right,rgb(14, 89, 84),rgb(131, 253, 241));
+}
+
+
+
+
+
+
+
+
+.img-container{
+    text-align:center;
+}
+
+.skills-container{
+    background-color:rgb(34, 67, 105);
+    border-radius:10px;
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+    padding:10px 0px 10px 0px;
+    color:white;
+    transition:color 0.25s;
+    vertical-align:top;
+    margin-bottom:10px;
+}
+
+.work-experience-language-container{
+    display:flex;
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+    justify-content:space-between;
+}
+
+.work-experience-container,.language-container{
+    width:49.5%;
+    background-color:rgb(34, 67, 105);
+    border-radius:10px;
+    padding:10px 0px 10px 0px;
+    color:white;
+    transition:color 0.25s;
+    margin-bottom:10px;
+}
+
+.skills-container:hover,.work-experience-container:hover,.language-container:hover{
+    background-color:lightblue;
+    color:black;
+}
+
+.skills-header,.work-experience-header{
+    text-align:center;
+    margin:0px;
+    font-size:28px;
+    font-family:poppins;
+    display:flex;
+    justify-content:center;
+    margin-bottom:20px;
+}
+.skills-container-elements,.education-container-elements,.work-experience-elements,.language-container-element,.projects-container-elements{
+    padding:0px;
+    display:flex;
+    font-family:poppins;
+    justify-content:space-around;
+}
+
+.education-container,.projects-container{
+    width:90%;
+    margin-right:auto;
+    margin-left:auto;
+    border-radius:10px;
+    background-color:lightblue;
+    font-family:poppins;
+    padding:10px 0px 10px 0px;
+    margin-bottom:10px;
+
+}
+.education-container:hover,.projects-container:hover{
+    background-color:rgb(34, 67, 105);
+    color:white;
+}
+.education-header,.language-header,.projects-header{
+    margin:0px;
+    font-size:28px;
+    font-family:poppins;
+    display:flex;
+    justify-content:center;
+}
+.link-container{
+    display:flex;
+    justify-content:start;
+    align-items:center;
+}
+.mail-phone-container{
+    flex:1;
+    display:flex;
+    justify-content:end;
+}
+.mail-link,.phone-link{
+    display:flex;
+    align-items: center;
+}
+
+#aboutme-contact-row{
+    display:flex;
+}
+#aboutme-contact-row div{
+    flex:1;
+}
+

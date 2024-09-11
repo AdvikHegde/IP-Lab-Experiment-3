@@ -1,0 +1,17 @@
+/* Custom styles for the profile page */
+.navbar {
+  margin-bottom: 20px;
+}
+
+header {
+  background: url('header-background.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+header img {
+  border: 5px solid #fff;
+}
+
+footer {
+  background-color: #f8f9fa;
+}
